@@ -6,6 +6,6 @@ public class Cliente{
     public Cliente(int rut, String name, CreditCard credit){
         this.rut = rut;
         this.name = name;
-        this.CreditCard = credit;
+        this.credit = credit;
     }
 }

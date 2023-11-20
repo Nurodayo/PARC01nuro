@@ -6,4 +6,11 @@ public class Habitacion{
         this.nHabitacion = nHabitacion;
         this.capacidad = capacidad;
     }
+
+    public int getCapacidad(){
+        return this.capacidad;
+    }
+    public int setCapacidad(int newCapacidad){
+        this.capacidad = newCapacidad
+    }
 }

@@ -5,7 +5,7 @@ class acc_dibujo:
         self.color = color
         self.ancho_de_linea= ancho_de_linea
     
-    def ancho(self):
+    def dibujar(self):
         return self.ancho_de_linea
     def get_ancho_de_linea(self):
         return ancho_de_linea
