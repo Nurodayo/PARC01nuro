@@ -1,1 +1,10 @@
- 
+ 1- git clone <enlace del repositorio.git>
+
+ 2- Lo que sucede con la agregacion es que la clase vivienda esta dentro de la clase Inmobiliaria y la herencia dice que todas las clases que heredan de vivienda
+ tendran los atributos y metodos de esta
+
+ 3- las clases abstractas son un tipo de clases con las que no se pueden crear objetos es decir si tenemos una clase de este tipo "Animal" no se podran crear
+ objetos de tipo "Animal" pero si se podran crear subclases de esta como de tipo "perro"
+
+ 5- No necesariamente aunque la super clase y las clases que heredan de esta tengan metodos y atributos compartidos las subclases de A poseen metodos y atributos 
+ exclusivos a la subclase por lo tanto aunque la subclase puede tener el mismo comportamiento que la superclase, la superclase no puede hacer lo mismo que la subclase
