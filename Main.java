@@ -7,20 +7,20 @@ public class Main{
         String nombre, fVencimiento;
         
         System.out.println("Desea hacer una reservacion \n 1- Si. \n 2- No");
-
+        selection = scan.nextInt();
         switch(selection){
             case 1:
                 System.out.println("ingrese sus datos");
                 System.out.println("rut:");
                 rut = scan.nextInt();
                 
-                nombre = scan.nextString();
+                nombre = scan.nextLine();
 
                 nTargeta = scan.nextInt();
 
                 ccv = scan.nextInt();
 
-                fVencimiento = scan.nextString();
+                fVencimiento = scan.nextLine();
 
                 CreditCard targeta = new CreditCard(nTargeta, ccv, fVencimiento);
                 Cliente user = new Cliente(rut, nombre, targeta);
